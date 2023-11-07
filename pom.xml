@@ -43,10 +43,11 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat8-maven-plugin</artifactId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<path>/ASBank-2023</path>
+					<url>http://localhost:8081</url>
+					<path>/_00_ASBank2023</path>
 				</configuration>
 			</plugin>
 		</plugins>
