@@ -80,6 +80,7 @@ public class Connect extends ActionSupport {
 	 * @return String, le userCde de la classe
 	 */
 	public String getUserCde() {
+		System.out.println("récupération du code user");
 		return userCde;
 	}
 
